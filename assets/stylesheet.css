@@ -5,8 +5,10 @@
   display: block;
   height: 40px;
   max-width: 1065px;
+  min-width: 780px;
   margin: 0 auto;
   border-bottom: 1px solid lightgrey;
+
 }
 
 .header_button_container {
@@ -61,11 +63,12 @@
 }
 
 .masthead_logo {
-  display: block;
   margin: 0 auto;
   width: 185px;
   height: 26px;
-  clear: both;
+  line-height: 22px;
+  padding-top: 4px;
+  padding-right: 15px;
 }
 
 .login_button {
@@ -88,4 +91,19 @@
   -webkit-transition-property: background-color;
   -webkit-transition-timing-function: ease;
   cursor: pointer;
+}
+
+.settings_gear {
+  float: right;
+  background-color: white;
+  height: 30px;
+  border: 0 solid white;
+  margin: 0 35px 0 5px;
+}
+
+
+
+.gear_icon {
+  vertical-align: middle;
+
 }
