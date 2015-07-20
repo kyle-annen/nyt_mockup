@@ -1,4 +1,6 @@
-
+body {
+  max-width: 1046px;
+}
 /* masthead section*/
 
 .header_container {
@@ -110,8 +112,8 @@
 }
 
 .slider_container {
-  width: 6224px;
   height: 82px;
+  width: 6022px;
   display: block;
   left: 0px;
   border-bottom: 1px solid rgb(211, 211, 211);
